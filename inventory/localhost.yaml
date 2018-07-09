@@ -123,7 +123,11 @@ all:
             - "docker" # TODO to be moved
             - "docker-compose" # TODO to be moved
             - "docker-machine" # TODO to be moved
+<<<<<<< HEAD
 # does not seem to exist            - "java-openjfx"
+=======
+# Looks like it does not exist for aarch64            - "java-openjfx"
+>>>>>>> 9f046f992b349426d7b83575ea3c3013f0a86c54
             - "jdk8-openjdk"
             - "pgadmin4"
             - "ruby"
