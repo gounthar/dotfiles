@@ -15,7 +15,8 @@
     - { role: bash, tags: bash }
     - { role: packages-system, tags: packages-system }
     - { role: zsh, tags: zsh }
-    - { role: fish, tags: fish }
+  #  - { role: fish, tags: fish }
+  # :fish: screwed my config, so I'm getting rid of it for the time being
     - { role: screen, tags: screen }
     - { role: ssh, tags: ssh }
     - { role: npm, tags: npm }
