@@ -43,6 +43,12 @@ all:
         - name: "tools_basics"
           pacman_packages:
             - "curl"
+            - "wget"
+            - "base"
+            - "base-devel"
+            - "openssh"
+            - "linux-headers"
+            - "zsh"
             - "gnupg" # TODO to be moved
             - "gpa" # TODO to be moved
             - "httpie"
