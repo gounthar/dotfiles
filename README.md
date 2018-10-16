@@ -2,15 +2,24 @@
 
 ![Archlinux Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Archlinux-vert-dark.svg/1280px-Archlinux-vert-dark.svg.png)
 
-Hi people!
+This repository contains all the things [Antoine Neveux](https://github.com/aneveux) is using in order to set up his development environment! This is just a fork of his main repo in order to get this working on ARM machines.
+This branch is dedicated to the fabulous XU4 machine
+A few packages were not available, so that I had to rebuild them (even if some of them are not ARM specific. Go figure. I know nothing about ArchLinux, just in case you were wondering). Just clone the repo, issue `makepkg` and then `pacman -U resulting-package.tar.xz`.
+To be totally honest, I had to tweak here and there to allow the build to happen (because armv7h is not planned for these packages). If you were ever lost at that, just create an issue in this repo.
 
-This repository contains all the things I'm using in order to set up my development environment! There's nothing too crazy in it, but I'd be really happy if it could help you in case you'd like to set up kind of a similar environment!
+|Name                                  |Version                       | URL                        |
+|--------------------------------------|------------------------------|----------------------------|
+|ttf-font-awesome                      |4-4.7.0                       |https://aur.archlinux.org/ttf-font-awesome-4.git|
+|ttf-font-icons                        |1.1-1-any                     |https://aur.archlinux.org/ttf-font-icons.git|
+|nerd-fonts-complete                   |2.0.0-5-any                   |https://aur.archlinux.org/nerd-fonts-complete.git|
+|ttf-unifont                           |11.0.02-1-any                 |https://aur.archlinux.org/ttf-unifont.git|
+|dropbox                               |58.4.92-1-armv7h              |https://aur.archlinux.org/dropbox.git|
+|xflux                                 |20130901-5-armv7h             |https://aur.archlinux.org/xflux.git|
 
-Otherwise, it'll actually help me provisioning my laptops!
 
 ## Operating System.
 
-I've been converted to [Archlinux](https://www.archlinux.org/) by [@ThomasFerreira](https://github.com/ThomasFerreira/) and I'm really happy about it!
+I've no yet been converted to [Archlinux](https://www.archlinux.org/) by [@ThomasFerreira](https://github.com/ThomasFerreira/), but I'm working on it.
 
 This repository doesn't intend to deal with the whole Operating System installation, so I'll instead let you rely on the [awesome installation guide from arch wiki](https://wiki.archlinux.org/index.php/Installation_guide)!
 
