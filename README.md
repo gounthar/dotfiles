@@ -3,8 +3,13 @@
 ![Archlinux Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Archlinux-vert-dark.svg/1280px-Archlinux-vert-dark.svg.png)
 
 This repository contains all the things [Antoine Neveux](https://github.com/aneveux) is using in order to set up his development environment! This is just a fork of his main repo in order to get this working on ARM machines.
-This branch is dedicated to the fabulous XU4 machine
-A few packages were not available, so that I had to rebuild them (even if some of them are not ARM specific. Go figure. I know nothing about ArchLinux, just in case you were wondering). Just clone the repo, issue `makepkg` and then `pacman -U resulting-package.tar.xz`.
+
+This branch is dedicated to the fabulous [XU4](https://www.hardkernel.com/main/products/prdt_info.php) machine.
+
+A few packages were not available, so that I had to rebuild them (even if some of them are not ARM specific. Go figure. I know nothing about [ArchLinux](https://archlinuxarm.org/platforms/armv7/samsung/odroid-xu4), just in case you were wondering).
+
+Just clone the repo, issue `makepkg` and then `pacman -U resulting-package.tar.xz`.
+
 To be totally honest, I had to tweak here and there to allow the build to happen (because armv7h is not planned for these packages). If you were ever lost at that, just create an issue in this repo.
 
 |Name                                  |Version                       | URL                        |
