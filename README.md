@@ -2,7 +2,7 @@
 
 ![Archlinux Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Archlinux-vert-dark.svg/1280px-Archlinux-vert-dark.svg.png)
 
-This repository contains all the things [Antoine Neveux](https://github.com/aneveux) is using in order to set up his development environment! This is just a fork of his main repo in order to get this working on ARM machines.
+This repository contains all the things [Antoine Neveux](https://github.com/aneveux) is using in order to set up his development environment. This is just a fork of his main repo in order to get this working on ARM machines.
 
 This branch is dedicated to the fabulous [XU4](https://www.hardkernel.com/main/products/prdt_info.php) machine.
 
@@ -26,7 +26,7 @@ To be totally honest, I had to tweak here and there to allow the build to happen
 
 I've no yet been converted to [Archlinux](https://www.archlinux.org/) by [@ThomasFerreira](https://github.com/ThomasFerreira/), but I'm working on it.
 
-This repository doesn't intend to deal with the whole Operating System installation, so I'll instead let you rely on the [awesome installation guide from arch wiki](https://wiki.archlinux.org/index.php/Installation_guide)!
+This repository doesn't intend to deal with the whole Operating System installation, so I'll instead let you rely on the [awesome installation guide from Arch Linux ARM website](https://archlinuxarm.org/platforms/armv7/samsung/odroid-xu4)!
 
 But as soon as you have a running system (by the end of the wiki page actually), you'll be able to use this repository! There is a small playbook provided in the `playbooks` directory allowing to let you deal with the *locale* and *user* creation. If you never played with Ansible, have a look at the `install.sh` script to get examples of how to use the `ansible-playbook` command.
 
