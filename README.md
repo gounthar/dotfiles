@@ -19,7 +19,7 @@ To be totally honest, I had to tweak here and there to allow the build to happen
 |nerd-fonts-complete                   |2.0.0-5-any                   |https://aur.archlinux.org/nerd-fonts-complete.git|
 |ttf-unifont                           |11.0.02-1-any                 |https://aur.archlinux.org/ttf-unifont.git|
 |xflux                                 |20130901-5-armv7h             |https://aur.archlinux.org/xflux.git|
-|gnome-ssh-askpass2                    |7.2p2-1-aarch64               |https://aur.archlinux.org/gnome-ssh-askpass2.git|
+|gnome-ssh-askpass2                    |7.2p2-1-armv7h                |https://aur.archlinux.org/gnome-ssh-askpass2.git|
 
 
 ## Operating System.
