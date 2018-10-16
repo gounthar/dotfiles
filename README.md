@@ -20,6 +20,7 @@ To be totally honest, I had to tweak here and there to allow the build to happen
 |ttf-unifont                           |11.0.02-1-any                 |https://aur.archlinux.org/ttf-unifont.git|
 |dropbox                               |58.4.92-1-armv7h              |https://aur.archlinux.org/dropbox.git|
 |xflux                                 |20130901-5-armv7h             |https://aur.archlinux.org/xflux.git|
+|gnome-ssh-askpass2                    |7.2p2-1-aarch64               |https://aur.archlinux.org/gnome-ssh-askpass2.git|
 
 
 ## Operating System.
