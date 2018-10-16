@@ -27,7 +27,7 @@ To be totally honest, I had to tweak here and there to allow the build to happen
 
 I've no yet been converted to [Archlinux](https://www.archlinux.org/) by [@ThomasFerreira](https://github.com/ThomasFerreira/), but I'm working on it.
 
-This repository doesn't intend to deal with the whole Operating System installation, so I'll instead let you rely on the [awesome installation guide from Arch Linux ARM website](https://archlinuxarm.org/platforms/armv7/samsung/odroid-xu4)!
+This repository doesn't intend to deal with the whole Operating System installation, so I'll instead let you rely on the [awesome installation guide from Arch Linux ARM website](https://archlinuxarm.org/platforms/armv8/broadcom/raspberry-pi-3)!
 
 But as soon as you have a running system (by the end of the wiki page actually), you'll be able to use this repository! There is a small playbook provided in the `playbooks` directory allowing to let you deal with the *locale* and *user* creation. If you never played with Ansible, have a look at the `install.sh` script to get examples of how to use the `ansible-playbook` command.
 
