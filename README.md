@@ -10,7 +10,7 @@ A few packages were not available, so that I had to rebuild them (even if some o
 
 Just clone the repo, issue `makepkg` and then `pacman -U resulting-package.tar.xz`.
 
-To be totally honest, I had to tweak here and there to allow the build to happen (because armv7h is not planned for these packages). If you were ever lost at that, just create an issue in this repo.
+To be totally honest, I had to tweak here and there to allow the build to happen (because aarch64 is not planned for these packages). If you were ever lost at that, just create an issue in this repo.
 
 |Name                                  |Version                       | URL                        |
 |--------------------------------------|------------------------------|----------------------------|
@@ -21,6 +21,7 @@ To be totally honest, I had to tweak here and there to allow the build to happen
 |xflux                                 |20130901-5-armv7h             |https://aur.archlinux.org/xflux.git|
 |cower                                 |18-1-aarch64                  |https://aur.archlinux.org/cower.git|
 |gnome-ssh-askpass2 	                 |7.2p2-1-aarch64             	|https://aur.archlinux.org/gnome-ssh-askpass2.git
+|lnav                                  |0.8.4-1-aarch64               |https://aur.archlinux.org/lnav.git|
 
 ## Operating System.
 
